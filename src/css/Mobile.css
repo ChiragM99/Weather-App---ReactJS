@@ -1,0 +1,516 @@
+@media (min-width: 320px) and (max-width: 600px) and (orientation: portrait)
+{
+
+  /*
+	  ##Device = Tablets, Ipads (portrait)
+	  ##Screen = B/w 768px to 1024px
+	  126% - 174%
+	*/
+
+	*{
+		box-sizing: border-box;
+		font-family: customFont;
+		font-size: 11pt;
+	}
+
+	html
+  {
+  	background-color:#092238;
+  }
+
+	.overAllBackgroundColour
+  {
+  	background-color:transparent;
+    	color: white;
+  }
+
+	.LogoContainer
+	{
+	    display: inline-block;
+	    /* border-style: solid;
+	    border-width: thin; */
+	    float: right;
+	    box-sizing: border-box;
+	    width: 60%;
+	    padding: 0px;
+	}
+
+	#currentTime{
+		font-size: 16pt;
+	}
+
+	#currentDate{
+		font-size: 10pt;
+	}
+
+	#currentDate, #currentTime{
+		padding:0px;
+	}
+
+	.LogoContainer img
+	{
+		width: 40px;
+  	height: 40px;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		float: right;
+		top:23px;
+		left:175px;
+		/* top:16px;
+		left:145px; */
+		/* margin-left: 100px;
+    	margin-top: 10px; */
+	}
+
+	.LogoContainer h1
+	{
+		font-size: 16pt;
+		margin: 0;
+		padding: 0;
+		float: right;
+		position: absolute;
+		top:35px;
+		left:218px;
+    /* top: -35px; */
+	}
+
+	#getCurrentLocLinkBtn
+	{
+	    width: auto;
+	    padding: 10px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 25px;
+	    border-radius: 25px;
+			font-size: 11pt;
+			color:black;
+	    background-color: white;
+	}
+
+	.rowTopMargin
+	{
+		margin-top: 20px;
+	}
+
+
+
+	.button:hover
+	{
+		background-color: #1673e5; /* Green */
+		color: white;
+	}
+
+	.lon
+	{
+  	width: 100%;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	font-size:11pt;
+  	font-style: italic;
+		margin-left: 0px;
+  }
+
+  .lat
+  {
+  	width: 100%;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	font-size:11pt;
+  	font-style: italic;
+		margin-left: 0px;
+  }
+
+	.oneColumn
+	{
+		display: block;
+		width: 100%;
+		padding: 20px;
+
+	}
+
+	.columnTop
+	{
+		display: block;
+  	width: 100%;
+  	padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.twoColumn
+	{
+		display: block;
+  	width: 90%;
+	}
+
+	.columnThreeLayer
+	{
+		display: block;
+	  width: 95%;
+		margin: 0;
+	}
+
+	.noPadding{
+		padding-top: 0px;
+	}
+
+	#searchBtnDiv,#mapBtnDiv{
+		padding: 0px;
+		margin:0px;
+	}
+
+	#clearBtnDiv,#searchBtn,#mapBtnDiv{
+		margin-left: 10px;
+	}
+
+	.currentWeatherData
+	{
+		background-color:transparent;
+		border: 0;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 11px;
+		margin: 4px 2px;
+		cursor: pointer;
+		margin-left: 15px;
+		border-style: solid;
+		font-family: Arial;
+		width: 100%
+	}
+
+	.row{
+			height:auto;
+	}
+	.row:after
+	{
+		content: "";
+	  	display: table;
+	  	clear: both;
+	}
+
+	.button
+	{
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		width: 100%;
+		font-family: Arial;
+	}
+
+	.forcastDivContainer{
+		height: auto;
+	}
+	.forcastDivContainer img{
+		float: right;
+	}
+
+	#forcastInfo{
+		float: center;
+		position: relative;
+		height: auto;
+	}
+
+	#currWthUpd
+	{
+		display: none;
+	}
+
+	.currentIcon img
+	{
+		height: 120px;
+		width: 120px;
+	}
+
+	.forecastIcon img
+	{
+			height: 120px;
+			width: 120px;
+			position: center;
+	}
+
+	#prevDaybtn,#nextDaybtn{
+		padding: 10px;
+	}
+
+	#dailyweatherDiv{
+		width: 70%;
+		margin-left: 20px;
+	}
+
+	#prevbtndiv, #nextbtndiv{
+		width: 5%;
+	}
+	#prevbtndiv{
+		margin-right: 0px;
+		margin-left: 5px;
+	}
+
+	#dailyweatherDiv{
+		margin-right: 10px;
+		padding-left: 40px;
+		margin-left: 10px;
+	}
+
+	#nextbtndiv{
+		margin-left: 0px;
+		padding-right: 0px;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 600px) and (orientation: landscape)
+{
+	/*
+	  ##Device = Tablets, Ipads (portrait)
+	  ##Screen = B/w 768px to 1024px
+	  126% - 174%
+	*/
+
+	*{
+		box-sizing: border-box;
+		font-family: customFont;
+		font-size: 11pt;
+	}
+
+	html
+  {
+  	background-color:#092238;
+  }
+
+	.overAllBackgroundColour
+  {
+  	background-color:#092238;
+    	color: white;
+  }
+
+	.LogoContainer
+	{
+	    display: inline-block;
+	    /* border-style: solid;
+	    border-width: thin; */
+	    float: right;
+	    box-sizing: border-box;
+	    width: 60%;
+	    padding: 10px;
+	}
+
+	.LogoContainer img
+	{
+		width: 80px;
+	  	height: 80px;
+	    display: inline-block;
+	    float: right;
+		/* margin-left: 100px;
+    	margin-top: 10px; */
+	}
+
+	.LogoContainer h1
+	{
+		font-size: 32pt;
+	    margin: 0;
+	    padding-right: 20px;
+	    display: inline;
+	    float: right;
+	    position: relative;
+	    top: 18px;
+	    left: 10px;
+	    /* top: -35px; */
+	}
+
+	#getCurrentLocLinkBtn
+	{
+	    width: auto;
+	    padding: 13px;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 25px;
+	    border-radius: 25px;
+			font-size: 10pt;
+			color:black;
+	    background-color: white;
+	}
+
+	.rowTopMargin
+	{
+		margin-top: 20px;
+	}
+
+
+
+	.button:hover
+	{
+		background-color: #1673e5; /* Green */
+		color: white;
+	}
+
+	.lon
+	{
+    	width: 100%;
+    	padding: 10px;
+    	box-sizing: border-box;
+    	font-size:13pt;
+    	font-style: italic;
+    }
+
+    .lat
+    {
+    	width: 100%;
+    	padding: 10px;
+    	box-sizing: border-box;
+    	font-size:13pt;
+    	font-style: italic;
+    }
+
+	.oneColumn
+	{
+		float: left;
+		width: 100%;
+		padding: 20px;
+
+	}
+
+	.imagepos
+	{
+		position: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.columnTop
+	{
+		float: left;
+	  	width: 50%;
+	  	padding: 10px;
+	}
+
+	.twoColumn
+	{
+		float: left;
+	  	width: 50%;
+	}
+
+	.columnThreeLayer
+	{
+		float: left;
+	  width: 33.33%;
+		margin: 0;
+
+	}
+
+	.currentWeatherData
+	{
+		background-color:transparent;
+		border: 0;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 4px 2px;
+		cursor: pointer;
+		margin-left: 15px;
+		border-style: solid;
+		font-family: Arial;
+		width: 100%
+	}
+
+	.row{
+			height:auto;
+	}
+	.row:after
+	{
+		content: "";
+	  	display: table;
+	  	clear: both;
+	}
+
+	.button
+	{
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 4px 2px;
+		cursor: pointer;
+		width: 100%;
+		font-family: Arial;
+	}
+
+	.left
+	{
+	  width: 66.66%;
+	}
+
+	.right
+	{
+	  width: 33.33%;
+	}
+
+	.logo img {
+		float: left;
+	  	width: 100px;
+	  	height: 100px;
+	  	margin-left: -50px;
+
+	}
+
+	.logo h1
+	{
+		float: left;
+		top: 18px;
+		left: 10px;
+		font-size: 60pt;
+		margin-top: 60px;
+		font-size: 42pt;
+
+
+	}
+	.forcastDivContainer{
+		height: auto;
+	}
+	.forcastDivContainer img{
+		float: right;
+	}
+
+	#forcastInfo{
+		float: center;
+		position: relative;
+		height: auto;
+	}
+
+	#currWthUpd
+	{
+		display: none;
+	}
+
+	.currentIcon img
+	{
+		height: 120px;
+		width: 120px;
+	}
+
+	.forecastIcon img
+	{
+			height: 120px;
+			width: 120px;
+			position: center;
+	}
+
+	#currentTime
+	{
+		font-size: 30pt;
+		padding: 10px;
+	}
+}
