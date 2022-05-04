@@ -25,7 +25,7 @@ export default class GetCurrentLocationLink extends React.Component {
     // }
     return(
       <div>
-        <button id="getCurrentLocLinkBtn" onClick={(event) => this.getCurrentLocation(event)}>Get my current latitude and longitude (High Accuracy)</button>
+        <button id="getCurrentLocLinkBtn" onClick={(event) => this.getCurrentLocation(event)}>Get my current latitude and longitude</button>
       </div>
     );
   }

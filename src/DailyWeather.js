@@ -10,7 +10,7 @@ export default class DailyWeather extends React.Component{
     this.day = 0
   }
 
-  //When the dailt weather info is gathered the results are used to create an object so weather info can be accessed easily.
+  //When the daily weather info is gathered the results are used to create an object so weather info can be accessed easily.
   //Returns an array of objects that represent each day of the week.
   //Each object has weather information for that particular day.
   GetWT_Daily = () => {
